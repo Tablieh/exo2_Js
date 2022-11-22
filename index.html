@@ -73,8 +73,15 @@
                         
 
                newbox.addEventListener("click", function(){
+                if (newbox.style.display === "none") {
+                    img.addEventListener("click", function(){
+                        newbox.style = 'display: block'
+                    })
+                    } else {
+                        newbox.style = 'display: none'
+                    }
                     //console.log("Boite n°"+ i +", click !")
-                    newbox.style = 'display: none'
+                    
                     //location.reload()
                 })
           
