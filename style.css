@@ -1,0 +1,38 @@
+html{
+
+/*background-color: black;*/
+
+}
+#container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1000px;
+    margin-left: 250px;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    overflow:hidden;
+}
+
+.newDiv{
+    position: relative;
+
+}
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: rgb(76, 250, 99);
+    font-size: 3em;
+    text-align: center;
+    line-height: 150px;
+    animation: appear 1s;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.8s, color 0.8s, transform 0.8s;
+}
